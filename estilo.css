@@ -164,15 +164,15 @@ body {
 }
 
 .videos-contenedor{
-    display: grid;
-    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.texto-imagenes{
-    color: white;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+.videos-contenedor iframe{
+    border-radius: 30px;
+    padding: 5px;
 }
 
 .texto-trofeo {
