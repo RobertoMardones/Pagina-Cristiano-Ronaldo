@@ -137,9 +137,10 @@ body {
     max-height: 120px;
 }
 
+/* Sección Galeria*/
 .galeria {
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 29%, rgba(118,9,34,1) 73%, rgba(145,140,140,1) 100%);
+    background: linear-gradient(350deg, rgba(0,0,0,1) 10%, rgba(207,13,13,0.6971580868675595) 20%, rgba(4,106,56,1) 49%, rgba(207,13,13,0.6971580868675595) 80%, rgba(0,0,0,1) 90%);
     color: red;
 }
 
@@ -152,12 +153,20 @@ body {
 
 .galeria-contenedor img{
     width: 80%;
-    padding-bottom: 20px;
+    padding: 5px;
     display: block;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
+/* Sección Videos*/
+.videos{
+    background: rgb(0,0,0);
+}
 
+.videos-contenedor{
+    display: grid;
+    
+}
 
 .texto-imagenes{
     color: white;
