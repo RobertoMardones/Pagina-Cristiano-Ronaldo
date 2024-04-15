@@ -94,6 +94,13 @@ body {
     transition-duration: 0.3s;
 }
 
+/*Ajuste de tarjetas para pantallas menor a 768 píxeles*/
+@media screen and (max-width: 768px) {
+    .tarjeta{
+        width: 50%;
+    }
+}    
+
 
 /* Hover para la imagen del jugador en las tarjetas */
 .foto-equipo {
