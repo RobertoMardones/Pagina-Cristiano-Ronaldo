@@ -182,55 +182,18 @@ body {
     font-size: 18px;
 }
 
-
-/* Sección Formulario */
-.contacto{
-    background-color: black;
-}
-
-.formulario{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;    
-}
-
-.input{
-    color: white;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    border: 2px solid darkblue;
-    padding: 20px 10px;
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-
-.input-ancho{
-    width: 40%;
-} 
-
-.textarea-ancho{
-    width: 80%;
-    resize: none;
-}
-
-.boton{
-    display: inline-block;
-    background-color: blue;
-    color: white;
-    padding: 20px 10px;
-    margin-bottom: 15px;
-    width: 30%;
-    font-size: 20px;
-    border: none;
-}
-
-.boton:hover{
-    background-color: darkblue;
-}
-
-
+/* Footer */
 footer {
     color: white;
     text-align: center;
+}
+
+.footer-contenedor{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer-contenedor p{
+    margin: 15px 15px;
 }
